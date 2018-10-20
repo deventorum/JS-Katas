@@ -29,7 +29,6 @@ const multiplicationTable = maxValue => {
       output += '|'
     }
   }
-  output.concat(horizontalLine() + '\n');
   return output;
 };
 
